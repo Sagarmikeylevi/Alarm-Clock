@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alarm Clock</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="https://kit.fontawesome.com/4aac9664a9.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+  
+    <!-- Page-1 -->
+    <div id="bg-alarm">
+        <!-- Alarm-1 -->
+        <div class="alarms cl-1">
+            <div class="OFbutton1">
+                <div class="circle1"></div>
+            </div>
+            <button class = "set-button"></button>
+            <div class="time-1"><span id = "hr1">06</span><span id = dt1>:</span><span id = "mn1">00</span></div>
+            <div class="date-1"><i class="fa-regular fa-calendar"></i><span id = "ab-date">Sunday</span></div>
+        </div>
+
+        <!-- Alarm-2 -->
+        <div class="alarms cl-2">
+            <div class="OFbutton2">
+                <div class="circle2"></div>
+            </div>
+            <button class = "set-button"></button>
+            <div class="time-2">06:00</div>
+            <div class="date-2"><i class="fa-regular fa-calendar"></i>Sunday</div>
+           
+        </div>
+         <!-- Alarm-3 -->
+        <div class="alarms cl-3">
+            <div class="OFbutton3">
+                <div class="circle3"></div>
+            </div>
+            <button class = "set-button"></button>
+            <div class="time-3">06:00</div>
+            <div class="date-3"><i class="fa-regular fa-calendar"></i>Sunday</div>
+        </div>
+
+        <!-- Alarm-Details -->
+        <div class = "alarm-details">
+            <!-- Time -->
+            <div id="set-time">
+                <div id="h-up"><i class="fa-solid fa-caret-up"></i></div>
+                <div id="h-down"><i class="fa-solid fa-caret-down"></i></div>
+
+                <div id="m-up"><i class="fa-solid fa-caret-up"></i></div>
+                <div id="m-down"><i class="fa-solid fa-caret-down"></i></div>
+
+                <div id="headings-time"><h3>Time</h3></div>
+                <div id="list-time"><b id = "hour">06</b><b id = dot>:</b><b id = "min">00</b></div>
+            </div>
+            <!-- Dates -->
+            <div id="set-dates">
+               <div id="headings-date"><h3>Date</h3></div>
+               <div id="list-date">
+                <div id="sun"></div>
+                <div id="mon"></div>
+                <div id="tue"></div>
+                <div id="wed"></div>
+                <div id="thur"></div>
+                <div id="fri"></div>
+                <div id="sat"></div>
+               </div>
+               <div id="week-name">
+                 <b id="1">Sun</b>
+                 <b id ="2">Mon</b>
+                 <b id = "3">Tue</b>
+                 <b id = "4" class = "margin-1">Wed</b>
+                 <b id = "5">Thu</b>
+                 <b id = "6">Fri</b>
+                 <b id = "7">Sat</b>
+               </div>
+             </div>
+            <!-- button submit or done -->
+            <button id ="done">Done</button>
+        </div>
+
+        
+    </div>
+
+    <script src = "script.js"></script>
+   
+</body>
+</html>

@@ -1,0 +1,428 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+body{
+    margin: 0px;
+    padding: 0px;
+    background: #4d1ca9;
+    font-family: 'Oswald', sans-serif;
+}
+
+/* Alarm background */
+#bg-alarm{
+    position: absolute;
+    left: 35%;
+    top: 10%;
+    height: 30rem;
+    width: 24rem;
+    z-index: 3;
+    background: #052642;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  
+}
+
+/* Alarm Box */
+.alarms{
+    margin-top: 2rem;
+    /* display: none; */
+    margin-left: 3rem;
+    margin-right: 3rem;
+    height: 7rem;
+    border-radius: 8px;
+    width: 18rem;
+    
+    
+}
+
+.set-button{
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    height: 3rem;
+    width: 5rem;
+    z-index: 3;
+    border: none;
+    outline: none;
+    background: transparent;
+    cursor:grab;
+    
+}
+
+.alarms.slideLeft{
+  
+    display: none;
+   
+}
+
+
+
+/* Each color */
+.cl-1{
+    background: linear-gradient( #FDEB71 , #a69943);
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    filter: opacity(0.8);
+}
+
+.cl-2{
+    background: linear-gradient( #FEB692 , #EA5455);
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    filter: opacity(0.8);
+}
+
+.cl-3{
+    background: linear-gradient( #CE9FFC , #7367F0);
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    filter: opacity(0.8);
+}
+
+/* Toggle button */
+.OFbutton1{
+    position: absolute;
+    top: 40%;
+    left: 70%;
+    height: 1.5rem;
+    width: 4rem;
+    z-index: 3;
+    border: 2px solid white;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.circle1{
+    margin-top: -4px;
+    margin-left: -2px;
+    height: 2rem;
+    width: 2rem;  
+    border-radius: 40%;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.OFbutton2{
+    position: absolute;
+    top: 40%;
+    left: 70%;
+    height: 1.5rem;
+    width: 4rem;
+    border: 2px solid white;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.circle2{
+    margin-top: -4px;
+    margin-left: -2px;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 40%;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.OFbutton3{
+    position: absolute;
+    top: 40%;
+    left: 70%;
+    height: 1.5rem;
+    width: 4rem;
+    border: 2px solid white;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.circle3{
+    margin-top: -4px;
+    margin-left: -2px;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 40%;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+/* Animation for on and off */
+
+/* Date and time */
+.time-1{
+   
+    padding-top: 1rem;
+    padding-left: 1rem;
+    font-size: 2.2rem;
+    color: white;
+    filter: opacity(2);
+   
+    
+}
+
+.date-1{
+  
+    padding-left: 1rem;
+    font-size: 1rem;
+    color: white;
+    filter: opacity(1);
+}
+
+.date-1 i{
+    padding: 5px;
+}
+
+.time-2{
+    padding-top: 1rem;
+    padding-left: 1rem;
+    font-size: 2.2rem;
+    color: white;
+    filter: opacity(2);
+}
+
+.date-2{
+   
+    padding-left: 1rem;
+    font-size: 1rem;
+    color: white;
+    filter: opacity(1);
+}
+
+.date-2 i{
+    padding: 5px;
+}
+
+.time-3{
+    padding-top: 1rem;
+    padding-left: 1rem;
+    font-size: 2.2rem;
+    color: white;
+    filter: opacity(2);
+}
+
+.date-3{
+   
+    padding-left: 1rem;
+    font-size: 1rem;
+    color: white;
+    filter: opacity(1);
+}
+
+.date-3 i{
+    padding: 5px;
+}
+
+
+/* Alarm details */
+
+.alarm-details{
+    /* border: 1px solid red; */
+    margin: 2.5rem;
+    height: 25rem;
+    width: 19rem;
+    margin-left: 400px;
+    display: flex;
+    /* visibility: hidden; */
+    flex-direction: column;
+    justify-content: space-evenly;
+    transform: translate(300px);
+    
+   
+    opacity: 0;
+
+}
+
+/* Animation part */
+.alarm-details.animate{
+    opacity: 1;
+    animation: anim 0.2s ease-in-out;
+    transform:translate(0px);
+    margin-left: 2.5rem;
+}
+
+ @keyframes anim {
+
+    from{
+        opacity: 0.2;
+        transform:translate(200px);
+    }
+
+    30%{
+        opacity: 0.5;
+        transform:translate(100px);
+    }
+
+    70%{
+        opacity: 0.8;
+        transform:translate(50px);
+    }
+    to{
+        opacity: 1;
+        transform:translate(0px);
+    }
+
+    
+ }
+/*  Alarm details time or clock setting */
+#set-time{
+    height: 40%;
+    width: 100%;
+    /* border: 1px solid white; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient( #8E2DE2 , #4A00E0);
+    /* filter: opacity(0.8); */
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    
+
+}
+
+#set-time i{
+    color:honeydew;
+    position: absolute;
+    filter: opacity(2);
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+#h-up{
+  position: absolute;
+  top: 15%;
+  left: 37%;
+
+}
+
+#h-down{
+    position: absolute;
+    top: 31%;
+    left: 37%;
+  
+}
+
+#m-down{
+    position: absolute;
+    top: 31%;
+    left: 58%;
+  
+}
+
+#m-up{
+    position: absolute;
+    top: 15%;
+    left: 58%;
+  
+}
+
+
+
+#headings-time{
+    width: 100%;
+    height: 20%;
+    background:gold;
+    filter: opacity(0.8);
+}
+
+#headings-time h3{
+    font-size:x-large;
+    margin-top: -4px;
+    margin-left: 10px;
+    letter-spacing: 2.5px;
+    font-weight: 900;
+}
+
+#list-time{
+  
+    width: 100%;
+    height: 80%;
+    
+    
+}
+
+#list-time b{
+   
+    font-size: 2.5rem;
+    color: antiquewhite;
+    position: absolute;
+    top: 18%;
+    left: 32%;
+    letter-spacing: 5px;
+}
+
+#min{
+   margin-left: 65px;
+}
+
+#dot{
+    margin-left: 50px;
+}
+
+/* Alarm details choose date */
+
+#set-dates{
+    height: 40%;
+    width: 100%;
+    /* border: 1px solid white; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient( #8E2DE2 , #4A00E0);
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+#headings-date{
+    margin-top: -3.6rem;
+    width: 100%;
+    height: 20%;
+    background: coral;
+    /* background-color: #8E2DE2; */
+    filter: opacity(0.8);
+}
+
+#headings-date h3{
+    font-size:x-large;
+    margin-top: -4px;
+    margin-left: 10px;
+    letter-spacing: 2.5px;
+    font-weight: 900;
+}
+
+#list-date{
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#list-date div{
+    margin-top: -5px;
+    
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    background: antiquewhite;
+    cursor: pointer;
+    
+}
+
+#week-name{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: -27px;
+    margin-left: -8px;
+    text-align:center;
+    cursor: pointer;
+}
+#week-name b{
+   font-size: 14px;
+   color: black;
+   font-weight: 300;
+}
+
+.margin-1{
+    margin-left: -5px;
+}
+
+#done{
+    background-color:cyan;
+    font-size: 1rem;
+    font-weight: 800;
+    letter-spacing: 1px;
+    color: rgba(0, 49, 0, 0.809);
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
